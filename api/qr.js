@@ -3,7 +3,7 @@ const QRCode = require('qrcode');
 const { PassThrough } = require('stream');
 const generatePayload = require('promptpay-qr');
 
-const mobileNumber ='0644956997';
+const mobileNumber ='';
 const router = express.Router();
 
 router.get('/', async (req, res) => {
