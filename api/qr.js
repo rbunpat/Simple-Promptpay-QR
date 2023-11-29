@@ -8,6 +8,7 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
     let amount = req.query.amount;
+    mobileNumber = req.query.number;
     amount = Number(amount);
     let payload = generatePayload(mobileNumber, { amount });
     const qrStream = new PassThrough();
