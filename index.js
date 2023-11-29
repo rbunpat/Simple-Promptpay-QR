@@ -3,7 +3,6 @@ const QRCode = require('qrcode');
 const { PassThrough } = require('stream');
 const generatePayload = require('promptpay-qr');
 
-const mobileNumber ='';
 const qrAPI = require("./api/qr");
 
 
